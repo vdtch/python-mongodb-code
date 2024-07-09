@@ -9,7 +9,7 @@ try:
     client = MongoClient(uri)
     database = client["sample_mflix"]
 
-    # Creation d'un collecion pour insérer les données
+    # Create a collection to insert data
     collection_list = database.list_collections()
     collection_list_name: list = []
     collection_to_create: str = "test_collection"

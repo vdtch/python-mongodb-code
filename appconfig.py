@@ -2,7 +2,7 @@ import os
 
 from dotenv import load_dotenv
 
-# Charger les variables d'environnement à partir du fichier .env
+# Load MongoDB properties from .env file
 load_dotenv()
 
 class AppConfig:
